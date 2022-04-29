@@ -9,3 +9,7 @@ CREATE USER 'wordpressuser'@'%' IDENTIFIED WITH mysql_native_password BY 'passwo
 GRANT ALL ON wordpress.* TO 'wordpressuser'@'%';
 
 FLUSH PRIVILEGES;
+
+EXIT;
+
+![Create a User](create-user.png)
