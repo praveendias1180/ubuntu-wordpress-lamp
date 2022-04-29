@@ -56,3 +56,17 @@ mkdir /tmp/wordpress/wp-content/upgrade
 sudo cp -a /tmp/wordpress/. /var/www/wordpress
 
 ![WP Dir](wp-dir.png)
+
+# WP Dir Config
+
+sudo chown -R www-data:www-data /var/www/wordpress
+
+sudo find /var/www/wordpress/ -type d -exec chmod 750 {} \;
+
+sudo find /var/www/wordpress/ -type f -exec chmod 640 {} \;
+
+# Get SALT
+
+curl -s https://api.wordpress.org/secret-key/1.1/salt/
+
+![Salt](salt.png)
