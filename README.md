@@ -73,6 +73,8 @@ curl -s https://api.wordpress.org/secret-key/1.1/salt/
 
 sudo gedit /var/www/wordpress/wp-config.php
 
+define('FS_METHOD', 'direct');
+
 Done!
 
 ![Welcome](welcome.png)
