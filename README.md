@@ -70,3 +70,9 @@ sudo find /var/www/wordpress/ -type f -exec chmod 640 {} \;
 curl -s https://api.wordpress.org/secret-key/1.1/salt/
 
 ![Salt](salt.png)
+
+sudo gedit /var/www/wordpress/wp-config.php
+
+Done!
+
+![Welcome](welcome.png)
