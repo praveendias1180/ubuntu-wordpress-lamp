@@ -25,3 +25,17 @@ sudo systemctl restart apache2
 # wordpress Virtual Host
 
 create a virtual host called 'wordpress'.
+
+# .htaccess Overrides
+
+sudo gedit /etc/apache2/sites-available/wordpress.conf
+
+```
+<Directory /var/www/wordpress/>
+	AllowOverride All
+</Directory>
+```
+
+sudo a2enmod rewrite
+
+sudo systemctl restart apache2
