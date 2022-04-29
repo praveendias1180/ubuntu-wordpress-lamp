@@ -13,3 +13,15 @@ FLUSH PRIVILEGES;
 EXIT;
 
 ![Create a User](create-user.png)
+
+# PHP Extensions
+
+sudo apt update
+
+sudo apt install php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
+
+sudo systemctl restart apache2
+
+# wordpress Virtual Host
+
+create a virtual host called 'wordpress'.
