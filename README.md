@@ -76,3 +76,13 @@ sudo gedit /var/www/wordpress/wp-config.php
 Done!
 
 ![Welcome](welcome.png)
+
+# GitHub Dev
+
+Press ```.``` anywhere
+
+https://github.dev/
+
+https://github.dev/praveendias1180/ubuntu-wordpress-lamp
+
+![Dev](github-dev.png)
